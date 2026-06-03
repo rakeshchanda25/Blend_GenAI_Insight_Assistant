@@ -1,0 +1,204 @@
+# ============= Python =============
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+virtualenv/
+blend_assignemnt/
+
+# ============= API Keys & Config =============
+# IMPORTANT: Never commit API keys!
+BACKEND/config.py
+FRONTEND/config.py
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+credentials.json
+
+# ============= Data Files =============
+# SQLite databases
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB vector store
+**/chroma/
+**/.chroma/
+chroma_data/
+
+# Uploaded files
+uploads/
+temp_uploads/
+*.csv
+*.xlsx
+*.xls
+
+# ============= Logs =============
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============= IDE / Editor =============
+# VSCode
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# ============= OS Files =============
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============= Streamlit =============
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ============= FastAPI / Uvicorn =============
+*.pid
+*.sock
+
+# ============= Miscellaneous =============
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*~.nib
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Model files (large files)
+models/
+*.pkl
+*.pickle
+*.h5
+*.onnx
+*.pt
+*.pth
+
+# Node modules (if any JS tools used)
+node_modules/
+
+# ============= Project Specific =============
+# ChromaDB persistence
+BACKEND/chroma/
+FRONTEND/chroma/
+
+# SQLite database
+BACKEND/data/sales.db
+FRONTEND/data/*.db
+
+# Sentence Transformers cache
+.cache/
+sentence_transformers/
+
+# LangChain cache
+.langchain/
+
+# Gemini API logs
+gemini_*.log

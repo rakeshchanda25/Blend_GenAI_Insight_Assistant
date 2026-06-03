@@ -1,0 +1,16 @@
+# ============= Streamlit Framework =============
+streamlit>=1.28.0,<2.0.0
+
+# ============= HTTP Client =============
+requests>=2.31.0,<3.0.0
+
+# ============= Data Processing =============
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0  # Required by pandas
+
+# ============= Optional Enhancements =============
+# For better display formatting
+openpyxl>=3.1.0,<4.0.0  # Excel file handling (if needed)
+
+# For better performance
+pyarrow>=14.0.0,<18.0.0  # Faster data operations in Streamlit

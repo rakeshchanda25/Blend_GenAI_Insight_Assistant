@@ -1,0 +1,92 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+blend_assignemnt/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (will be mounted as volumes)
+data/
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+.chroma/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+*.key
+
+# Config with secrets (will be mounted separately)
+config.py
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+tests/
+*.test.py
+pytest.ini
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model caches
+.cache/
+models/
+*.h5
+*.pkl
+*.pt
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Docker
+docker-compose.override.yml
+.dockerignore

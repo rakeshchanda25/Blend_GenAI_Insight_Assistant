@@ -1,0 +1,92 @@
+# Frontend-specific .dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+blend_assignemnt/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Config with secrets
+config.py
+.env
+.env.local
+*.key
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
+
+# Test files
+tests/
+*.test.py
+pytest.ini
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+*.md
+!README.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (not needed in frontend)
+data/
+*.db
+*.sqlite
+*.csv
+*.xlsx
+*.xls
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Caches
+.cache/

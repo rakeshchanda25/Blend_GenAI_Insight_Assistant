@@ -1,0 +1,98 @@
+# Backend-specific .dockerignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+blend_assignemnt/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Config with secrets (will be mounted as volume)
+config.py
+.env
+.env.local
+*.key
+
+# Data files (will be mounted as volume)
+data/
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+.chroma/
+
+# Logs
+*.log
+logs/
+
+# Test files
+tests/
+*.test.py
+pytest.ini
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+*.md
+!README.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model caches (large files)
+.cache/
+models/
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+
+# Uploaded files
+uploads/
+temp_uploads/
